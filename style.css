@@ -1,1 +1,39 @@
+html,body {
+    font-family: Arial, sans-serif;
+    background-image: url(./Assets/james-spader-the-blacklist-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#quote {
+    margin-bottom: 20px;
+}
+
+#generate-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-btn:hover {
+    background-color: #0056b3;
+}
