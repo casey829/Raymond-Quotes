@@ -1,19 +1,40 @@
 {
-  "posts": [
+  "quotes":[
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "quote": "",
+      "author": ""
+    },
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "quote": "",
+      "author": ""
+    },
+    {
+      "id": 1,
+      "quote": "",
+      "author": ""
+    },
+    {
+      "id": 1,
+      "quote": "",
+      "author": ""
+    },
+    {
+      "id": 1,
+      "quote": "",
+      "author": ""
+    },
+    {
+      "id": 1,
+      "quote": "",
+      "author": ""
+    },
+    {
+      "id": 1,
+      "quote": "",
+      "author": ""
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  ]
 }
