@@ -8,10 +8,10 @@ This is a simple web application that generates random quotes of Raymond Randing
 .Easy-to-use interface with a single button to generate new quotes.
 .Fetches quotes from an external API to provide a diverse selection.
 
-## Usage
-To use the Raymonf Randington Quote Generator:
-1.Open the Raymond Randington Quote Generator in your web browser.
-2.Click on the "Generate Quote" button to generate a new random quote.
+## How to run the application
+To use the Raymond Randington Quote Generator:\
+1.Ensure you run [json-server --watch db.json](json-server --watch db.json) on your terminal
+2.open [https://casey829.github.io/Raymond-Quotes/](https://casey829.github.io/Raymond-Quotes/)to view it in your browser
 3.Enjoy Raymonds wisdom and humour!
 
 ## Technologies Used
