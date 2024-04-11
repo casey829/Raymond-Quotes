@@ -20,7 +20,11 @@ To use the Raymond Randington Quote Generator:\
 
 ## Technologies Used
 .HTML
+
+
 .CSS
+
+
 .JavaScript
 
 ## API used
@@ -37,8 +41,10 @@ If you wish to host the application locally:
 ## Credits
 
 .Raymond  Randington Quote Generator is inspired by the character Raymond Randington.
+
+
 .Quotes are fetched from the Raymond Randington API.
 
 ## License
 
-This project is licensed under the [MIT License].
+This project is licensed under the MIT License.
