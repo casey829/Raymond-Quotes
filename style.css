@@ -42,6 +42,9 @@ html,body {
 #dislike-count{
     color: red;
 }
+#like-count{
+    color: green;
+}
 
 .like-btn, .dislike-btn {
     cursor: pointer;
