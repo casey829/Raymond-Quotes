@@ -13,7 +13,7 @@ html,body {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     background-color: black;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,6 +28,7 @@ html,body {
     background-color: #007bff;
     color: #fff;
     border: none;
+    margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -36,4 +37,15 @@ html,body {
 
 #generate-btn:hover {
     background-color: #0056b3;
+}
+
+#dislike-count{
+    color: #007bff;
+}
+
+.like-btn, .dislike-btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
 }

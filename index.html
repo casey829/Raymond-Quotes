@@ -10,10 +10,19 @@
 </head>
 <body>
   <div class="container">
-      <h1>Raymond Radington Quotes</h1>
-      <div id="quote"></div>
-     <button id="generate-btn">Generate Raymond Quote</button>
-   </div>
+   <div>
+    <button class="like-btn" onclick="like()">UpVote</button>
+    <span id="like-count">0</span>
+  
+    <button class="dislike-btn" onclick="dislike()">DownVote</button>
+    <span id="dislike-count">0</span>
+  </div>
+  
+  <div>
+    <button id="generate-btn">Generate Raymond Quote</button>
+    <p id="quote">Press the button for some Raymond wisdom.</p>
+  </div>
+  </div>
   <script src='./script.js'></script>
 </body>
 </html> 
