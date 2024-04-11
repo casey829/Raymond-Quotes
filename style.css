@@ -40,7 +40,7 @@ html,body {
 }
 
 #dislike-count{
-    color: #007bff;
+    color: red;
 }
 
 .like-btn, .dislike-btn {
@@ -48,4 +48,10 @@ html,body {
     padding: 5px 10px;
     border: 1px solid #ccc;
     margin-right: 10px;
+}
+.like-btn {
+    background-color: rgb(18, 198, 18);
+}
+.dislike-btn {
+    background-color: red;
 }
