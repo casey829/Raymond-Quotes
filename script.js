@@ -17,7 +17,7 @@ async function fetchQuote() {
     }
 }
 
-// Function to generate a new quote when the button is clicked
+// Function to generate a new quote when  button is clicked
 async function generateQuote() {
     const quote = await fetchQuote();
     document.getElementById("quote").innerText = quote;
@@ -26,7 +26,7 @@ async function generateQuote() {
 // Event listener for the button click to generate a new quote
 document.getElementById("generate-btn").addEventListener("click", generateQuote);
 
-// Function to start with an empty quote display when the page loads
+// Function to start with an empty quote display when page loads
 function startWithEmptyQuote() {
     document.getElementById("quote").innerText = 'Press the button for some Raymond wisdom.';
 }
