@@ -10,17 +10,22 @@
 </head>
 <body>
   <div class="container">
-   <div>
-    <button class="like-btn" onclick="like()">UpVote</button>
+  <div>
+    <button class="like-btn" onclick="like()">Like</button>
     <span id="like-count">0</span>
   
-    <button class="dislike-btn" onclick="dislike()">DownVote</button>
+    <button class="dislike-btn" onclick="dislike()">Dislike</button>
     <span id="dislike-count">0</span>
   </div>
   
   <div>
-    <button id="generate-btn">Generate Raymond Quote</button>
+    <button id="generate-btn">Generate Quote</button>
     <p id="quote">Press the button for some Raymond wisdom.</p>
+  </div>
+  
+  <div>
+    <input type="text" id="new-quote" placeholder="Enter your own Raymond Reddington quote">
+    <button id="update-btn">Update Quote</button>
   </div>
   </div>
   <script src='./script.js'></script>
