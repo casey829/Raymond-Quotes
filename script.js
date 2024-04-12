@@ -1,6 +1,6 @@
-
+//variables for the like and dislike number starting at 0
 let likeCount = 0;
-  let dislikeCount = 0;
+let dislikeCount = 0;
 
   function like() {
     likeCount++;
@@ -26,8 +26,8 @@ let likeCount = 0;
               return 'No quotes available.';
           }
       } catch (error) {
-          console.error('Issue with fetching the quote', error);
-          return 'Unable to fetch a quote.';
+          console.error('There was an error in fetching the quote...', error);
+          return 'Unable to display a quote.';
       }
   }
 
